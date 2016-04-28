@@ -1,4 +1,4 @@
 machine:
-  go:
+  golang:
     version: 1.6
     
