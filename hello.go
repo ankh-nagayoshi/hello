@@ -5,7 +5,7 @@ import (
 )
 
 func PrintHello(name string) string {
-  return "hello, " + name + "!"
+  return "Hello, " + name + "!"
 }
 
 func main() {
