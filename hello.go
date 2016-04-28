@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+)
+
+func PrintHello(name string) string {
+  return "hello, " + name + "!"
+}
 
 func main() {
-  fmt.Printf("hello, world\n")
+  fmt.Printf(PrintHello("small world"))
 }
